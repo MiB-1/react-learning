@@ -1,13 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Use state</title>
+</head>
+<body>
+
+<button id="counter"></button>
+<script>
+  let state = [];
+  let index = 0;
+
+  function useState(initialState) {
+    let currentIndex = index;
+
+    state[currentIndex] = state[currentIndex] ?? initialState;
+
+    function setState(newValue) {
+      state[currentIndex] = newValue;
+      index = 0;
+      renderer();
+    }
+    index++;
+    return [state[currentIndex], setState];
+  }
+
+  function renderer() {
+    const [count, setCount] = useState(10);
+    document.getElementById('counter').textContent = `Click count: ${count}`;
+
+    document.getElementById('counter').onclick = () => {
+      setCount(count+1);
+    }
+  }
+
+  renderer();
+</script>
+</body>
 </html>
