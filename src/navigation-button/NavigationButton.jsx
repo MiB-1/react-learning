@@ -1,12 +1,11 @@
+import ThemeToggleButton from "../ThemeComponents/ThemeToggleButton.jsx";
 
 
 function NavigationButton() {
     return (
-        <button>
-            Home
-        </button>
+        <ThemeToggleButton/>
     )
-};
+}
 
 
 export default NavigationButton;
