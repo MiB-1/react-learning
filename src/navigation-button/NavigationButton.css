@@ -1,0 +1,14 @@
+.navigation-group {
+  display: flex;
+  gap: 20px;
+}
+
+.divider {
+  border-right: 2px solid;
+}
+
+.navigation-button {
+  border: none;
+  background: none;
+  color: var(--text-color);
+}
