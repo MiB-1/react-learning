@@ -28,7 +28,8 @@
 .information {
   display: flex;
   flex-direction: row;
-  margin: 3%;
+  margin: 6% 4%;
+  padding: 0 4em;
 }
 
 .information > div:first-child {

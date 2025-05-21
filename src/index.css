@@ -2,18 +2,41 @@
   font-family: 'Poppins', system-ui;
   line-height: 1.5;
   font-weight: 400;
-  padding: 0 5rem;
 }
 
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
-  --grey-color: #b3b3b3;
+  --grey-color: #f3f4f6;
+
+
+  --grey-50: #f9fafb;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-300: #d1d5db;
+  --grey-400: #9ca3af;
+  --grey-500: #6b7280;
+  --grey-600: #4b5563;
+  --grey-700: #374151;
+  --grey-800: #1f2937;
+  --grey-900: #111827;
 }
 
 [data-theme='dark'] {
-  --bg-color: #121212;
+  --bg-color: #030712;
   --text-color: #ffffff;
+  --grey-color: #1f2937;
+
+  --grey-50: #111827;
+  --grey-100: #1f2937;
+  --grey-200: #374151;
+  --grey-300: #4b5563;
+  --grey-400: #6b7280;
+  --grey-500: #9ca3af;
+  --grey-600: #d1d5db;
+  --grey-700: #e5e7eb;
+  --grey-800: #f3f4f6;
+  --grey-900: #f9fafb;
 }
 
 body {

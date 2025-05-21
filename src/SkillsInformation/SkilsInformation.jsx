@@ -24,6 +24,7 @@ function SkillsInformation() {
             <div className="skill-wrapper">
                 <div className="skill-title">skills</div>
             </div>
+            <p className="skill-description">The Skills, tools and technologies I am really good at:</p>
             <div className="skills-info">
                 {mySkills.map(skill => (<Skills key={skill.id} icon={skill.icon} text={skill.text}/>))}
             </div>

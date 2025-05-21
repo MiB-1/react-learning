@@ -1,3 +1,8 @@
+.skill-section {
+    background: var(--grey-color);
+    padding: 2%;
+}
+
 .skills-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -10,6 +15,12 @@
     justify-content: space-around;
     align-items: center;
     margin: 20px;
+}
+
+.skill-description {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
 }
 
 .skill-title {

@@ -1,6 +1,6 @@
 import './AboutSection.css';
 import { ThemeContext } from "../ThemeComponents/ThemeContext.jsx";
-import {useContext} from "react";
+import { useContext } from "react";
 
 function AboutSection() {
     const { theme } = useContext(ThemeContext);
@@ -27,7 +27,7 @@ function AboutSection() {
               </div>
           </div>
           <div className="info-photo">
-              <img id="personal-photo" src={"/vignesh.jpg"} alt="Myphoto"/>
+              <img id="personal-photo" src={"/vignesh.jpg"} alt="Myphoto" />
           </div>
         </div>
     );
