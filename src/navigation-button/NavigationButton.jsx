@@ -9,7 +9,7 @@ function NavigationButton() {
             <button type="button" className="navigation-button">Contact</button>
             <div className="divider"></div>
             <ThemeToggleButton/>
-            <button type="button" className="download-cv">Download CV</button>
+            {/*<button type="button" className="download-cv">Download CV</button>*/}
         </div>
     )
 }

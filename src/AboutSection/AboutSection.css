@@ -28,6 +28,19 @@
 .information {
   display: flex;
   flex-direction: row;
+  margin: 3%;
+}
+
+.information > div:first-child {
+  flex: 2;
+}
+
+.information > div:last-child {
+  flex: 1;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .about-info {

@@ -8,6 +8,7 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
+  --grey-color: #b3b3b3;
 }
 
 [data-theme='dark'] {

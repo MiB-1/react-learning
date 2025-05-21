@@ -1,0 +1,23 @@
+.skills-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.skill-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.skill-title {
+    background: var(--grey-color);
+    color: #121212;
+    padding: 0 4px;
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}

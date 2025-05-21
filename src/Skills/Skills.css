@@ -1,0 +1,11 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.skill-img {
+    height: 55px;
+    width: 55px;
+}
