@@ -7,16 +7,16 @@ function SkillsInformation() {
     const { theme } = useContext(ThemeContext);
 
     const mySkills = [
-        { id: 1, icon: `/asset/${theme}-js.svg`, text: "JavaScript" },
-        { id: 2, icon: `/asset/${theme}-java.svg`, text: "Java" },
-        { id: 3, icon: `/asset/${theme}-react.svg`, text: "React" },
-        { id: 4, icon: `/asset/${theme}-common-skill.svg`, text: "Lit Element" },
-        { id: 5, icon: `/asset/${theme}-common-skill.svg`, text: "Spring boot" },
-        { id: 6, icon: `/asset/${theme}-common-skill.svg`, text: "Git" },
-        { id: 7, icon: `/asset/${theme}-common-skill.svg`, text: "Cypress" },
-        { id: 8, icon: `/asset/${theme}-common-skill.svg`, text: "Playwright" },
-        { id: 9, icon: `/asset/${theme}-common-skill.svg`, text: "Storybook" },
-        { id: 10, icon: `/asset/${theme}-common-skill.svg`, text: "Redux toolkit" },
+        { id: 1, icon: `/${theme}-js.svg`, text: "JavaScript" },
+        { id: 2, icon: `/${theme}-java.svg`, text: "Java" },
+        { id: 3, icon: `/${theme}-react.svg`, text: "React" },
+        { id: 4, icon: `/${theme}-common-skill.svg`, text: "Lit Element" },
+        { id: 5, icon: `/${theme}-common-skill.svg`, text: "Spring boot" },
+        { id: 6, icon: `/${theme}-common-skill.svg`, text: "Git" },
+        { id: 7, icon: `/${theme}-common-skill.svg`, text: "Cypress" },
+        { id: 8, icon: `/${theme}-common-skill.svg`, text: "Playwright" },
+        { id: 9, icon: `/${theme}-common-skill.svg`, text: "Storybook" },
+        { id: 10, icon: `/${theme}-common-skill.svg`, text: "Redux toolkit" },
     ];
 
     return (

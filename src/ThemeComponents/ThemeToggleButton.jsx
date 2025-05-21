@@ -5,7 +5,7 @@ import IconButton from "../IconButton/IconButton.jsx";
 const darkModeButton = (toggleTheme) => {
     return (
         <IconButton
-            icon={"/asset/dark-mode.svg"}
+            icon={"/dark-mode.svg"}
             callBack={toggleTheme}
             altText={'Dark Mode'}
         />
@@ -15,7 +15,7 @@ const darkModeButton = (toggleTheme) => {
 const lightModeButton = (toggleTheme) => {
     return (
         <IconButton
-            icon={"/asset/light-mode.svg"}
+            icon={"/light-mode.svg"}
             callBack={toggleTheme}
             altText={'Light Mode'}
         />
