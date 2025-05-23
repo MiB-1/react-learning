@@ -4,4 +4,6 @@
   align-items: center;
   height: 68px;
   padding: 0 4em;
+  position: sticky;
+  top: 0;
 }

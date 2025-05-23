@@ -18,7 +18,7 @@
 
 .experience-title {
     background: var(--grey-300);
-    padding: 0 4px;
+    padding: 0 12px;
     display: flex;
     justify-content: space-around;
     border-radius: 5px;

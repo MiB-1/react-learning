@@ -3,9 +3,13 @@ import Navigation from './navigation/Navigation.jsx';
 import AboutSection from "./AboutSection/AboutSection.jsx";
 import SkillsInformation from "./SkillsInformation/SkilsInformation.jsx";
 import ExperienceSection from "./ExperienceSection/ExperienceSection.jsx";
+import Contact from "./Contact/Contact.jsx";
+import Copyright from "./Copyright/Copyright.jsx";
 
 export const homeRef = 'about-section';
 export const skillRef = 'skills-section';
+export const workRef = 'experience-section';
+export const contactRef = 'contact-section';
 
 function App() {
 
@@ -19,6 +23,8 @@ function App() {
       <AboutSection />
       <SkillsInformation />
       <ExperienceSection />
+      <Contact />
+      <Copyright />
     </>
   )
 }

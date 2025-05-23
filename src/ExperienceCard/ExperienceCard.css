@@ -7,8 +7,12 @@
     display: flex;
     justify-content: space-evenly;
     border-radius: 20px;
-    width: 600px;
+    width: 900px;
     background-color: var(--bg-color);
     padding: 30px;
     box-shadow: 8px 8px 15px var(--box-shadow-first), -8px -8px 15px var(--box-shadow-sec);
+}
+
+.main-content {
+    width: 600px;
 }
