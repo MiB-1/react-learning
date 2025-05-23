@@ -1,32 +1,32 @@
-.skill-section {
+.experience-section {
     padding: 2%;
+    background: var(--grey-color);
 }
 
-.skills-info {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
-    padding: 10px;
-}
-
-.skill-wrapper {
+.experience-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 20px;
 }
 
-.skill-description {
+.experience-description {
     display: flex;
     justify-content: space-around;
     margin: 40px;
 }
 
-.skill-title {
+.experience-title {
     background: var(--grey-300);
     padding: 0 4px;
-    width: 50px;
     display: flex;
     justify-content: space-around;
     border-radius: 5px;
+}
+
+.experience-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }

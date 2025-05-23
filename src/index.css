@@ -21,6 +21,9 @@
   --grey-700: #374151;
   --grey-800: #1f2937;
   --grey-900: #111827;
+
+  --box-shadow-first: #d1d9e6;
+  --box-shadow-sec: #ffffff;
 }
 
 [data-theme='dark'] {
@@ -38,6 +41,9 @@
   --grey-700: #e5e7eb;
   --grey-800: #f3f4f6;
   --grey-900: #f9fafb;
+
+  --box-shadow-sec: #2a2f3a;
+  --box-shadow-first: #3a3f4b;
 }
 
 body {

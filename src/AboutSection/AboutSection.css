@@ -26,10 +26,10 @@
 }
 
 .information {
+  background: var(--grey-color);
   display: flex;
   flex-direction: row;
-  margin: 6% 4%;
-  padding: 0 4em;
+  padding: 6% 10%;
 }
 
 .information > div:first-child {
@@ -50,6 +50,7 @@
 }
 
 #personal-photo {
+  box-shadow: 80px 80px 0px var(--box-shadow-first), -8px -8px 15px var(--box-shadow-sec);
   border-radius: 50%;
   height: 350px;
   width: 350px;
