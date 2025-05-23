@@ -1,11 +1,15 @@
 import './ExperienceSection.css';
 import ExperienceCard from "../ExperienceCard/ExperienceCard.jsx";
+import {useContext} from "react";
+import {ThemeContext} from "../ThemeComponents/ThemeContext.jsx";
 
 function ExperienceSection() {
 
+    const { theme } = useContext(ThemeContext);
+
     const experienceData = [
         {
-            logo: '/lit.svg',
+            logo: `/${theme}-ING.png`,
             jobTitle: 'FullStack Developer',
             descriptions: [
                 'Developer frontend features',
@@ -14,7 +18,7 @@ function ExperienceSection() {
             duration: 'Oct 2020 - present'
         },
         {
-            logo: '/lit.svg',
+            logo: `/${theme}-ING.png`,
             jobTitle: 'FullStack Developer',
             descriptions: [
                 'Developer frontend features',
