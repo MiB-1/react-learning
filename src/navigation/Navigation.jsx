@@ -1,14 +1,14 @@
 import './Navigation.css';
 import NavigationButton from "../navigation-button/NavigationButton.jsx";
 
-function Navigation() {
+function Navigation({ callback }) {
     return (
-        <div className={'navigation'}>
+        <section className={'navigation'}>
             <h1>{'< VK />'}</h1>
             <div>
-                <NavigationButton />
+                <NavigationButton callback={callback} />
             </div>
-        </div>
+        </section>
     )
 }
 

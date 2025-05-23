@@ -2,6 +2,7 @@
   font-family: 'Poppins', system-ui;
   line-height: 1.5;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 :root {

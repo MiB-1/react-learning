@@ -5,7 +5,7 @@ import { useContext } from "react";
 function AboutSection() {
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="information">
+        <section id="about-section" className="information">
           <div className="about-info">
               <div className="title">
                   <h1>Hi, I'm Vignesh</h1>
@@ -29,7 +29,7 @@ function AboutSection() {
           <div className="info-photo">
               <img id="personal-photo" src={"/vignesh.jpg"} alt="Myphoto" />
           </div>
-        </div>
+        </section>
     );
 }
 

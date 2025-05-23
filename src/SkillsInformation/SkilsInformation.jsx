@@ -20,7 +20,7 @@ function SkillsInformation() {
     ];
 
     return (
-        <div className="skill-section">
+        <section id="skills-section" className="skill-section">
             <div className="skill-wrapper">
                 <div className="skill-title">skills</div>
             </div>
@@ -28,7 +28,7 @@ function SkillsInformation() {
             <div className="skills-info">
                 {mySkills.map(skill => (<Skills key={skill.id} icon={skill.icon} text={skill.text}/>))}
             </div>
-        </div>
+        </section>
     )
 }
 
