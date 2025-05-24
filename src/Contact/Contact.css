@@ -21,6 +21,12 @@
     width: 30px;
 }
 
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .img-icon {
     height: 50px;
     width: 50px;

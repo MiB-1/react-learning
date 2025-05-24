@@ -12,3 +12,76 @@
   background: none;
   color: var(--text-color);
 }
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#ham-burger {
+  height: 25px;
+  width: 25px;
+}
+
+#close-button {
+  height: 25px;
+  width: 25px;
+}
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navigation-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-button {
+    font-size: xxx-large;
+  }
+}
+
+#close-wrapper {
+  text-align: end;
+}
+
+.menu-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu-content {
+  background: var(--bg-color);
+  width: 100%;
+  max-height: 90%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  padding: 20px;
+}
+
+.menu-overlay.open .menu-content {
+  transform: translateY(0);
+}

@@ -5,3 +5,10 @@
   width: 30px;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .icon-button {
+    height: 50px;
+    width: 50px;
+  }
+}

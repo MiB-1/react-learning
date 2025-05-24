@@ -16,3 +16,22 @@
 .main-content {
     width: 600px;
 }
+
+@media (max-width: 767px) {
+    .experience-card {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .company-logo {
+        order: 1;
+    }
+
+    .main-content {
+        order: 3;
+    }
+
+    .duration {
+        order: 2;
+    }
+}

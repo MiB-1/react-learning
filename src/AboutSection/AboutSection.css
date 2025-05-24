@@ -38,20 +38,28 @@
 
 .information > div:last-child {
   flex: 1;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .about-info {
-  margin: 3rem;
-  width: 800px;
+  margin: 3%;
 }
 
 #personal-photo {
-  box-shadow: 80px 80px 0px var(--box-shadow-first), -8px -8px 15px var(--box-shadow-sec);
+  box-shadow: 20px 20px 10px var(--box-shadow-first), -8px -8px 15px var(--box-shadow-sec);
   border-radius: 50%;
-  height: 350px;
-  width: 350px;
+  max-width: 350px;
+}
+
+@media (max-width: 767px) {
+  .information {
+    flex-direction: column-reverse;
+  }
+
+  #personal-photo {
+    width: 60%;
+    box-shadow: 20px 20px 10px var(--box-shadow-first), -8px -8px 15px var(--box-shadow-sec);
+  }
 }
