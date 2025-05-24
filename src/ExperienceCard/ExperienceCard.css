@@ -20,7 +20,7 @@
 @media (max-width: 767px) {
     .experience-card {
         flex-direction: column;
-        width: auto;
+        width: 80%;
     }
 
     .company-logo {
@@ -28,6 +28,7 @@
     }
 
     .main-content {
+        width: auto;
         order: 3;
     }
 
